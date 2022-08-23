@@ -3,6 +3,6 @@ const Descargar = require('./descargar.controllers')
 
 const router = Router();
 
-router.get('/:path',Descargar.Descargar)
+router.get('/',Descargar.Descargar)
 
 module.exports = router

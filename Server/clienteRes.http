@@ -1,11 +1,12 @@
-@Host = http://localhost:3000/api/directorios/
+@Host = http://localhost:4000/api/descargar/
 
 ###
-POST {{Host}}hola
+POST {{Host}}
 Content-Type: application/json
 
 {
-    "nombre":"fabricio"
+    "nombre":"prueba.mp4"
 }
+
 ####
-GET {{Host}}
+POST  {{Host}}/?nombre=prueba.mp4
