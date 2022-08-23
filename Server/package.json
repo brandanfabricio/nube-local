@@ -1,0 +1,21 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "description": "backend servidor local",
+  "main": "index.js",
+  "scripts": {
+    "dev": " nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "brandan fabricio",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "mime-types": "^2.1.35",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  }
+}
